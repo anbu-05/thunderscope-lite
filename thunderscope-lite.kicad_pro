@@ -420,6 +420,14 @@
     [
       "6692fd2c-5f52-47ef-beed-f90a90a55e3c",
       "FE_channel"
+    ],
+    [
+      "29655d95-6e15-4139-94d5-54d51b2006e8",
+      "FE_channel1"
+    ],
+    [
+      "2221ea3b-4ea2-48c6-9e18-16b209128f4e",
+      "voltage_gen"
     ]
   ],
   "text_variables": {}

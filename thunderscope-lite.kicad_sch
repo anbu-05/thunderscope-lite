@@ -1070,9 +1070,169 @@
 			(embedded_fonts no)
 		)
 	)
+	(wire
+		(pts
+			(xy 95.25 101.6) (xy 95.25 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0308c4ca-806e-4dce-bbc9-694b4fae1c19")
+	)
+	(wire
+		(pts
+			(xy 97.79 77.47) (xy 105.41 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d0fa30-f852-4dad-9236-9b08cfa17dc2")
+	)
+	(wire
+		(pts
+			(xy 76.2 101.6) (xy 95.25 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07967181-ea46-42a7-8b81-30a00dee00d1")
+	)
+	(wire
+		(pts
+			(xy 95.25 55.88) (xy 95.25 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ad17509-7665-4a95-bb38-7fd184550349")
+	)
+	(wire
+		(pts
+			(xy 76.2 53.34) (xy 97.79 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c60e943-33ed-429c-a673-3f1bd41e7fdf")
+	)
+	(wire
+		(pts
+			(xy 124.46 80.01) (xy 176.53 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14bda7ea-4e27-44f8-a6e8-8db356059a2f")
+	)
+	(wire
+		(pts
+			(xy 124.46 82.55) (xy 176.53 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15f69033-1f79-4c82-a1ba-1355d45bd4f4")
+	)
+	(wire
+		(pts
+			(xy 124.46 77.47) (xy 176.53 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ac956e9-7ece-4cbd-9993-30ea5a19cb9e")
+	)
+	(wire
+		(pts
+			(xy 95.25 83.82) (xy 105.41 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "590dd61c-9d5d-4756-afa5-14ca27debaf1")
+	)
+	(wire
+		(pts
+			(xy 76.2 55.88) (xy 95.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ab3593e-19ec-4416-8f65-5fdd04c74b82")
+	)
+	(wire
+		(pts
+			(xy 76.2 104.14) (xy 97.79 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cfdeb5f-d5ef-418b-98df-6b6b79ce8374")
+	)
+	(wire
+		(pts
+			(xy 97.79 86.36) (xy 105.41 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "877fd053-37c0-4afe-a368-2959c60c3198")
+	)
+	(wire
+		(pts
+			(xy 95.25 80.01) (xy 105.41 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96fda294-6766-4da9-b508-ab772a4e89f0")
+	)
+	(wire
+		(pts
+			(xy 97.79 53.34) (xy 97.79 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4b45cc-f1d9-475d-a7e2-91e780eec6ac")
+	)
+	(wire
+		(pts
+			(xy 124.46 74.93) (xy 176.53 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7eeba93-7434-430e-b333-e2663e0cc377")
+	)
+	(wire
+		(pts
+			(xy 97.79 104.14) (xy 97.79 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1f91f7e-b3a9-4d82-9ed0-39cb5a06d184")
+	)
 	(symbol
 		(lib_id "AD9288BSTZ-40:AD9288BSTZ-40")
-		(at 203.2 87.63 0)
+		(at 196.85 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1081,7 +1241,7 @@
 		(fields_autoplaced yes)
 		(uuid "7319ad7e-5d12-45a7-b24f-f9ac511ead6f")
 		(property "Reference" "U2"
-			(at 203.2 36.83 0)
+			(at 196.85 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1249,7 @@
 			)
 		)
 		(property "Value" "AD9288BSTZ-40"
-			(at 203.2 39.37 0)
+			(at 196.85 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,7 +1257,7 @@
 			)
 		)
 		(property "Footprint" "AD9288BSTZ-40:QFP50P900X900X160-48N"
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1107,7 +1267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,7 +1276,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1125,7 +1285,7 @@
 			)
 		)
 		(property "MF" "Analog Devices"
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1135,7 +1295,7 @@
 			)
 		)
 		(property "Description_1" "8-Bit, 40/80/100 MSPS Dual A/D Converter"
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +1305,7 @@
 			)
 		)
 		(property "PACKAGE" "QFP-48"
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +1315,7 @@
 			)
 		)
 		(property "MPN" "AD9288BSTZ-40"
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1165,7 +1325,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +1335,7 @@
 			)
 		)
 		(property "Package" "LQFP -48 Analog Devices"
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +1345,7 @@
 			)
 		)
 		(property "OC_FARNELL" "1571581"
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,7 +1355,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/AD9288BSTZ-40/Analog+Devices/view-part/?ref=snap"
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1205,7 +1365,7 @@
 			)
 		)
 		(property "MP" "AD9288BSTZ-40"
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,7 +1375,7 @@
 			)
 		)
 		(property "SUPPLIER" "ANALOG DEVICES"
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1225,7 +1385,7 @@
 			)
 		)
 		(property "OC_NEWARK" "82H3062"
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1395,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1405,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/AD9288BSTZ-40/Analog+Devices/view-part/?ref=eda"
-			(at 203.2 87.63 0)
+			(at 196.85 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1408,8 +1568,212 @@
 		)
 	)
 	(sheet
-		(at 127.635 64.135)
-		(size 26.035 19.05)
+		(at 106.045 100.965)
+		(size 19.05 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2221ea3b-4ea2-48c6-9e18-16b209128f4e")
+		(property "Sheetname" "voltage_gen"
+			(at 106.045 100.2534 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltage_gen.kicad_sch"
+			(at 106.045 109.1696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ACQ_EN" input
+			(at 125.095 106.045 0)
+			(uuid "debccf87-f8e1-414e-893e-297a24578ee2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PGA_EN" input
+			(at 125.095 103.505 0)
+			(uuid "ea801245-96fc-4757-bf88-53c883f97500")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 57.15 97.79)
+		(size 19.05 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29655d95-6e15-4139-94d5-54d51b2006e8")
+		(property "Sheetname" "FE_channel1"
+			(at 57.15 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "FE_channel.kicad_sch"
+			(at 57.15 136.4746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DC_CPL" input
+			(at 76.2 127 0)
+			(uuid "bf6727b1-9490-4295-b5e5-f6fb47eb0fe2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_N" output
+			(at 76.2 101.6 0)
+			(uuid "8a66b008-eca4-4fa9-adbf-0544e635f10e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_P" output
+			(at 76.2 104.14 0)
+			(uuid "defb003c-4800-427b-a4c9-83d0b9189ac1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PGA_CSn" input
+			(at 76.2 116.84 0)
+			(uuid "88d2dfdb-6a3c-4742-82f9-b73952ce6305")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PGA_SCLK" input
+			(at 76.2 114.3 0)
+			(uuid "b919daa1-12b8-406b-855b-50eb11f781d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PGA_SDIO" input
+			(at 76.2 111.76 0)
+			(uuid "8966e244-34bb-4ebd-8373-2b6b3298110c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TERM" input
+			(at 76.2 121.92 0)
+			(uuid "a2998a42-3774-45bf-954b-041adf9c75f5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TRIM" input
+			(at 76.2 132.08 0)
+			(uuid "7d838131-d6b1-47e9-9594-902e5549b7ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCM" input
+			(at 76.2 106.68 0)
+			(uuid "6979dc79-6661-4c66-be42-9c5ae51b1b46")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ATTEN" input
+			(at 76.2 124.46 0)
+			(uuid "0428ec8f-658e-42dd-b808-805b549b9152")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 105.41 72.39)
+		(size 19.05 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1424,7 +1788,7 @@
 		)
 		(uuid "2aaae1fd-0637-4070-bb0f-0c0b65ef82d4")
 		(property "Sheetname" "ADC_driver"
-			(at 127.635 63.4234 0)
+			(at 105.41 71.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1433,7 +1797,7 @@
 			)
 		)
 		(property "Sheetfile" "ADC_driver.kicad_sch"
-			(at 127.635 83.7696 0)
+			(at 105.41 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1442,7 +1806,7 @@
 			)
 		)
 		(pin "IN1_N" input
-			(at 127.635 66.04 180)
+			(at 105.41 77.47 180)
 			(uuid "b1e5c169-2ac1-45f8-b304-25312c20a487")
 			(effects
 				(font
@@ -1452,7 +1816,7 @@
 			)
 		)
 		(pin "IN1_P" input
-			(at 127.635 68.58 180)
+			(at 105.41 80.01 180)
 			(uuid "fe5b21b0-3d8c-4b29-836a-5f7b2839e3d4")
 			(effects
 				(font
@@ -1462,7 +1826,7 @@
 			)
 		)
 		(pin "IN2_N" input
-			(at 127.635 72.39 180)
+			(at 105.41 83.82 180)
 			(uuid "c0b47e38-05fe-479b-a724-5bfa28a32655")
 			(effects
 				(font
@@ -1472,7 +1836,7 @@
 			)
 		)
 		(pin "IN2_P" input
-			(at 127.635 74.93 180)
+			(at 105.41 86.36 180)
 			(uuid "f6a65f8c-9ccc-4482-9257-7c9979b174de")
 			(effects
 				(font
@@ -1482,7 +1846,7 @@
 			)
 		)
 		(pin "OUT1_N" output
-			(at 153.67 66.04 0)
+			(at 124.46 74.93 0)
 			(uuid "f8ca4b4b-2c28-4302-926b-b0887aaaad13")
 			(effects
 				(font
@@ -1492,7 +1856,7 @@
 			)
 		)
 		(pin "OUT1_P" output
-			(at 153.67 68.58 0)
+			(at 124.46 77.47 0)
 			(uuid "7afe768c-2de5-4447-9672-65a2c97a7d74")
 			(effects
 				(font
@@ -1502,7 +1866,7 @@
 			)
 		)
 		(pin "OUT2_N" output
-			(at 153.67 72.39 0)
+			(at 124.46 80.01 0)
 			(uuid "b85ff1c9-6abc-41a2-b5f1-aacb4b879877")
 			(effects
 				(font
@@ -1512,7 +1876,7 @@
 			)
 		)
 		(pin "OUT2_P" output
-			(at 153.67 74.93 0)
+			(at 124.46 82.55 0)
 			(uuid "06d1456a-573a-44de-abb3-3ec6b3c58525")
 			(effects
 				(font
@@ -1522,7 +1886,7 @@
 			)
 		)
 		(pin "VCM1" input
-			(at 153.67 78.74 0)
+			(at 124.46 86.36 0)
 			(uuid "07ff4e9b-7de7-4c72-b353-043b57b7b284")
 			(effects
 				(font
@@ -1532,7 +1896,7 @@
 			)
 		)
 		(pin "VCM2" input
-			(at 153.67 81.28 0)
+			(at 124.46 88.9 0)
 			(uuid "3d4bbef3-6636-4d93-bb36-24bc8a60d2d1")
 			(effects
 				(font
@@ -1550,8 +1914,8 @@
 		)
 	)
 	(sheet
-		(at 64.135 61.595)
-		(size 23.495 21.59)
+		(at 57.15 49.53)
+		(size 19.05 38.1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1566,7 +1930,7 @@
 		)
 		(uuid "6692fd2c-5f52-47ef-beed-f90a90a55e3c")
 		(property "Sheetname" "FE_channel"
-			(at 64.135 60.8834 0)
+			(at 57.15 48.8184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1575,12 +1939,112 @@
 			)
 		)
 		(property "Sheetfile" "FE_channel.kicad_sch"
-			(at 64.135 83.7696 0)
+			(at 57.15 88.2146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DC_CPL" input
+			(at 76.2 78.74 0)
+			(uuid "da810440-bbce-49de-9bae-d795fc9bbfae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_N" output
+			(at 76.2 53.34 0)
+			(uuid "a38cbcff-7bda-460a-b7fc-8483a900ca5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_P" output
+			(at 76.2 55.88 0)
+			(uuid "2b58cc0f-1156-4046-8d61-2ed4e8ec261c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PGA_CSn" input
+			(at 76.2 68.58 0)
+			(uuid "cc63afdf-a2be-4f5e-8fc8-54c0eaef437a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PGA_SCLK" input
+			(at 76.2 66.04 0)
+			(uuid "72f0d3ae-61a2-4fc6-979d-d2549d396458")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PGA_SDIO" input
+			(at 76.2 63.5 0)
+			(uuid "477e9460-17f4-4126-b896-fb2524e9d7b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TERM" input
+			(at 76.2 73.66 0)
+			(uuid "1c3d4c1a-26f2-4793-b5a2-463b530ea096")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TRIM" input
+			(at 76.2 83.82 0)
+			(uuid "20ac4ad7-2966-4123-85dc-19b5c169d93a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VCM" input
+			(at 76.2 58.42 0)
+			(uuid "d48bc686-c20f-4865-b893-ca3156afbceb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ATTEN" input
+			(at 76.2 76.2 0)
+			(uuid "3bf93029-b0fb-4f99-8445-da3908f05d44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

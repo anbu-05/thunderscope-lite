@@ -1,0 +1,8 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "731000105")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/731000105.pretty")(options "")(descr ""))
+  (lib (name "AD9288BSTZ-40")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/AD9288BSTZ-40.pretty")(options "")(descr ""))
+  (lib (name "ADA4930-2YCPZ-R2")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/ADA4930-2YCPZ-R2.pretty")(options "")(descr ""))
+  (lib (name "Thunderscope_Rev5")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/Thunderscope_Rev5.pretty")(options "")(descr ""))
+  (lib (name "UD2-4.5NUN-L")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/UD2-4.5NUN-L.pretty")(options "")(descr ""))
+)
