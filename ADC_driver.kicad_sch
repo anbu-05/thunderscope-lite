@@ -542,6 +542,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -771,414 +910,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Thunderscope_Rev5:CAP 10uF 25V X5R 0603"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10uF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Thunderscope_Rev5:GEN_C_0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "VOLTAGE RATING" "25V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER 1" "Mouser"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER PART NUMBER 1" "81-GRM188R61E106MA3D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "HOUSE PART NUMBER" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Murata"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER PART NUMBER" "GRM188R61E106MA73D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CAP 10uF 25V X5R 0603_1_0"
-				(polyline
-					(pts
-						(xy -2 0.5) (xy 2 0.5)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2 -0.5) (xy 2 -0.5)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 0.5)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -0.5)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Thunderscope_Rev5:CAP 1uF 25V X5R 0402"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1uF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PACKAGE" "0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "VOLTAGE RATING" "25V"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER 1" "Mouser"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "HOUSE PART NUMBER" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Murata"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CAP 1uF 25V X5R 0402_1_0"
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 0.5)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -0.5)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2 0.5) (xy -2 0.5)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2 -0.5) (xy -2 -0.5)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Thunderscope_Rev5:GND"
 			(power)
 			(pin_numbers
@@ -1389,16 +1120,22 @@
 		(uuid "049e5557-80d4-41a5-bda6-cc055c4aecdc")
 	)
 	(junction
+		(at 80.01 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25e82012-063d-4441-b46d-a2cf7750b2fd")
+	)
+	(junction
 		(at 92.71 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2eaf723c-a161-4792-98b8-d00174572a71")
 	)
 	(junction
-		(at 193.04 111.76)
+		(at 92.71 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4365d1eb-d4ef-41bd-a3f0-310263d701ed")
+		(uuid "40e0efa0-e3d5-4551-8577-c021ac8a9b00")
 	)
 	(junction
 		(at 92.71 82.55)
@@ -1437,22 +1174,16 @@
 		(uuid "5d814b0b-8948-4050-bdfc-b9bf566e585a")
 	)
 	(junction
+		(at 67.31 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68da98a6-f286-4b1b-8a3e-44215287c040")
+	)
+	(junction
 		(at 92.71 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6f5a0785-d027-47a8-be4f-1fa62e7c4d4e")
-	)
-	(junction
-		(at 179.07 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b443a44-6e79-4078-9d41-a53b36b3e231")
-	)
-	(junction
-		(at 104.14 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8144c3ae-db10-4962-975e-6358500d1e75")
 	)
 	(junction
 		(at 109.22 115.57)
@@ -1461,10 +1192,10 @@
 		(uuid "819b1fae-8820-4f2e-9ce0-7565eddcc609")
 	)
 	(junction
-		(at 80.01 50.8)
+		(at 203.2 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8c49093f-0343-441a-a676-4cba4e361e32")
+		(uuid "88d73bb0-9836-4689-b898-dcae735b69a9")
 	)
 	(junction
 		(at 163.83 73.66)
@@ -1479,6 +1210,12 @@
 		(uuid "94b09c26-520b-4894-b864-8d64b22d5a41")
 	)
 	(junction
+		(at 104.14 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7b8f824-bb45-4991-a11a-06438aae8660")
+	)
+	(junction
 		(at 121.92 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1491,28 +1228,22 @@
 		(uuid "ca098ffe-dc5c-468a-a0ea-7a7092418e1b")
 	)
 	(junction
-		(at 92.71 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc05013c-05f0-4df5-8814-aa2cefd31011")
-	)
-	(junction
 		(at 109.22 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc890bb5-69bb-4eec-b129-74fb9f8fbcab")
 	)
 	(junction
+		(at 189.23 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6f37019-aa6e-405b-b007-514490c68589")
+	)
+	(junction
 		(at 121.92 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f9d14f2f-e5b6-4163-b51d-4862b9d00294")
-	)
-	(junction
-		(at 67.31 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa76c388-329f-425d-9ae4-21715d7428f8")
 	)
 	(wire
 		(pts
@@ -1596,6 +1327,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 50.8) (xy 92.71 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "177f4ab9-ffa7-453e-9d7e-2f23122fdfae")
+	)
+	(wire
+		(pts
 			(xy 161.29 119.38) (xy 163.83 119.38)
 		)
 		(stroke
@@ -1646,16 +1387,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 50.8) (xy 80.01 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25addbab-3926-4304-9c80-9ee5f7f251c5")
-	)
-	(wire
-		(pts
 			(xy 161.29 71.12) (xy 163.83 71.12)
 		)
 		(stroke
@@ -1683,6 +1414,16 @@
 			(type default)
 		)
 		(uuid "2d63c2fa-d6f6-43cd-99ae-b5ca78913218")
+	)
+	(wire
+		(pts
+			(xy 203.2 111.76) (xy 208.28 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e78f67f-1f28-4e64-a3c3-faa6b2fc288b")
 	)
 	(wire
 		(pts
@@ -1716,16 +1457,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 50.8) (xy 104.14 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36094f68-61a5-49e2-9c32-b835049bfe1d")
-	)
-	(wire
-		(pts
 			(xy 104.14 82.55) (xy 109.22 82.55)
 		)
 		(stroke
@@ -1743,6 +1474,16 @@
 			(type default)
 		)
 		(uuid "3918a22c-06f4-4aa4-8686-48e65266dc48")
+	)
+	(wire
+		(pts
+			(xy 189.23 114.3) (xy 194.31 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d2e65c-c3ea-412c-a50b-22292e3b00ae")
 	)
 	(wire
 		(pts
@@ -1776,6 +1517,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 50.8) (xy 80.01 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52fa9182-b0fa-4c94-a9a9-b15ea5b4cd3c")
+	)
+	(wire
+		(pts
 			(xy 111.76 118.11) (xy 109.22 118.11)
 		)
 		(stroke
@@ -1796,7 +1547,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 114.3) (xy 179.07 114.3)
+			(xy 161.29 114.3) (xy 189.23 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1813,6 +1564,16 @@
 			(type default)
 		)
 		(uuid "60af316d-f159-470d-9240-c80e11e0afdb")
+	)
+	(wire
+		(pts
+			(xy 203.2 111.76) (xy 203.2 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c5f898-b123-4a4f-a597-47d49b86cca0")
 	)
 	(wire
 		(pts
@@ -1886,6 +1647,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 50.8) (xy 104.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7384beec-782c-4f6b-ae93-70c101ea1b76")
+	)
+	(wire
+		(pts
 			(xy 163.83 50.8) (xy 163.83 71.12)
 		)
 		(stroke
@@ -1893,6 +1664,26 @@
 			(type default)
 		)
 		(uuid "761979d7-c7c0-4dcb-bf70-51efec3fb6b3")
+	)
+	(wire
+		(pts
+			(xy 189.23 114.3) (xy 189.23 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7813043c-8cd0-49cc-933a-66ce818459e0")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 92.71 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7981cf43-ca73-4151-bf29-ea4e41897585")
 	)
 	(wire
 		(pts
@@ -1916,6 +1707,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 50.8) (xy 80.01 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84b082f5-456e-4938-925f-35ca81d441b3")
+	)
+	(wire
+		(pts
 			(xy 92.71 82.55) (xy 96.52 82.55)
 		)
 		(stroke
@@ -1923,6 +1724,16 @@
 			(type default)
 		)
 		(uuid "899b72d5-0093-47c4-9536-b0faad69c532")
+	)
+	(wire
+		(pts
+			(xy 104.14 50.8) (xy 104.14 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc088bb-d0bc-4825-a433-41f107ac2d1e")
 	)
 	(wire
 		(pts
@@ -1936,6 +1747,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 50.8) (xy 121.92 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94337b53-9fb6-4367-9a61-0d0765558244")
+	)
+	(wire
+		(pts
 			(xy 163.83 81.28) (xy 161.29 81.28)
 		)
 		(stroke
@@ -1946,7 +1767,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 111.76) (xy 198.12 111.76)
+			(xy 161.29 111.76) (xy 203.2 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1963,6 +1784,16 @@
 			(type default)
 		)
 		(uuid "98ea215f-68f9-40f0-9161-254b0a29ef82")
+	)
+	(wire
+		(pts
+			(xy 67.31 50.8) (xy 67.31 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99a0d051-c0d0-4021-80d2-fe845f71985b")
 	)
 	(wire
 		(pts
@@ -2026,16 +1857,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 50.8) (xy 92.71 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b7b1689a-cfeb-45fb-8562-75510839864d")
-	)
-	(wire
-		(pts
 			(xy 161.29 124.46) (xy 163.83 124.46)
 		)
 		(stroke
@@ -2066,7 +1887,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 50.8) (xy 104.14 50.8)
+			(xy 62.23 50.8) (xy 67.31 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2176,16 +1997,6 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 114.3) (xy 184.15 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7d04c41-08c9-4750-be7c-4fac561048c1")
-	)
-	(wire
-		(pts
 			(xy 109.22 113.03) (xy 124.46 113.03)
 		)
 		(stroke
@@ -2223,26 +2034,6 @@
 			(type default)
 		)
 		(uuid "f73a7e28-9a6f-48bf-a6c8-4200c6333e39")
-	)
-	(wire
-		(pts
-			(xy 62.23 50.8) (xy 67.31 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "faad944f-1dcd-4c18-8ff6-1c894b91e390")
-	)
-	(wire
-		(pts
-			(xy 193.04 111.76) (xy 161.29 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fdc456db-9fc9-4c67-87b7-0deff529e296")
 	)
 	(hierarchical_label "OUT1_N"
 		(shape output)
@@ -2290,7 +2081,7 @@
 	)
 	(hierarchical_label "VCM1"
 		(shape input)
-		(at 198.12 111.76 0)
+		(at 208.28 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2334,7 +2125,7 @@
 	)
 	(hierarchical_label "VCM2"
 		(shape input)
-		(at 184.15 114.3 0)
+		(at 194.31 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2356,7 +2147,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 121.92 0)
+		(at 203.2 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2364,7 +2155,7 @@
 		(dnp no)
 		(uuid "020a6b82-4283-4c60-ac1d-43a35f3d4df7")
 		(property "Reference" "#PWR02"
-			(at 193.04 128.27 0)
+			(at 203.2 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2373,7 +2164,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 125.73 0)
+			(at 203.2 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2381,7 +2172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 121.92 0)
+			(at 203.2 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2390,7 +2181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 121.92 0)
+			(at 203.2 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,7 +2190,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 193.04 121.92 0)
+			(at 203.2 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2549,154 +2340,6 @@
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
-		(at 104.14 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "09634798-18a0-42fd-ba3d-71ec66c2d53a")
-		(property "Reference" "C70_2"
-			(at 106.394 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1uF"
-			(at 106.394 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
-			(at 104.14 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 104.14 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402"
-			(at 101.886 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" "25V"
-			(at 101.886 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 101.886 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
-			(at 101.886 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HOUSE PART NUMBER" ""
-			(at 101.886 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Murata"
-			(at 101.886 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
-			(at 101.886 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 104.14 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c0d10e83-1599-4013-a7bb-cff68765ff11")
-		)
-		(pin "1"
-			(uuid "c5e61771-167f-4d33-b3d0-59a0d24b7230")
-		)
-		(instances
-			(project "thunderscope-lite"
-				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
-					(reference "C70_2")
 					(unit 1)
 				)
 			)
@@ -2976,7 +2619,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 179.07 124.46 0)
+		(at 189.23 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2984,7 +2627,7 @@
 		(dnp no)
 		(uuid "248e8c09-4ab9-4921-b57c-414eac5a3a86")
 		(property "Reference" "#PWR01"
-			(at 179.07 130.81 0)
+			(at 189.23 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2993,7 +2636,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 179.07 128.27 0)
+			(at 189.23 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +2644,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 124.46 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3010,7 +2653,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 124.46 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3019,7 +2662,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 179.07 124.46 0)
+			(at 189.23 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3105,43 +2748,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
-		(at 80.01 55.88 0)
+		(lib_id "Device:C")
+		(at 92.71 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "66cebc1a-21e7-483a-bf47-cc68caa1b121")
-		(property "Reference" "C105_1"
-			(at 82.264 55.626 0)
+		(fields_autoplaced yes)
+		(uuid "58a2b557-b17e-44a5-9f1c-7795ac809fee")
+		(property "Reference" "C127"
+			(at 96.52 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 82.264 58.166 0)
+			(at 96.52 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
-			(at 80.01 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 55.88 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 93.6752 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3149,8 +2784,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 80.01 55.88 0)
+		(property "Datasheet" "~"
+			(at 92.71 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3158,78 +2793,8 @@
 				(hide yes)
 			)
 		)
-		(property "PACKAGE" "0402"
-			(at 77.756 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" "25V"
-			(at 77.756 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 77.756 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
-			(at 77.756 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HOUSE PART NUMBER" ""
-			(at 77.756 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Murata"
-			(at 77.756 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
-			(at 77.756 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 80.01 55.88 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,15 +2803,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b9633816-4158-49ee-bfb1-9f4f85bb1061")
+			(uuid "221e8f20-0916-49a4-8f4f-f58b5d7948d1")
 		)
 		(pin "1"
-			(uuid "9794578a-d0c4-4ab5-b9ab-a2f22bb54052")
+			(uuid "2947ff8d-3d81-4b23-8b3e-9ebd79b7cb38")
 		)
 		(instances
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
-					(reference "C105_1")
+					(reference "C127")
 					(unit 1)
 				)
 			)
@@ -3453,191 +3018,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
-		(at 179.07 119.38 0)
+		(lib_id "Device:C")
+		(at 67.31 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8aaa0fa3-706b-4780-969a-511b18b979a9")
-		(property "Reference" "C104_1"
-			(at 181.324 119.126 0)
+		(fields_autoplaced yes)
+		(uuid "8670bde0-6651-4a97-94e8-45f3ed01d658")
+		(property "Reference" "C129"
+			(at 71.12 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1uF"
-			(at 181.324 121.666 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
-			(at 179.07 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 179.07 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 179.07 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402"
-			(at 176.816 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" "25V"
-			(at 176.816 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 176.816 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
-			(at 176.816 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HOUSE PART NUMBER" ""
-			(at 176.816 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Murata"
-			(at 176.816 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
-			(at 176.816 113.792 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 179.07 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "06039d29-8c33-472d-8206-ef1d1ff721b2")
-		)
-		(pin "1"
-			(uuid "dde4dd90-dcc3-4223-a992-0eebda6c25f9")
-		)
-		(instances
-			(project "thunderscope-lite"
-				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
-					(reference "C104_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Thunderscope_Rev5:CAP 10uF 25V X5R 0603")
-		(at 67.31 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8f14056c-13b6-4e53-a040-774cf081e8a8")
-		(property "Reference" "C69_1"
-			(at 69.85 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "10uF"
-			(at 69.85 58.42 0)
+			(at 71.12 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Thunderscope_Rev5:GEN_C_0603"
-			(at 67.31 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 55.88 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 68.2752 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,8 +3054,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 µF ±20% 25V Ceramic Capacitor X5R 0603 (1608 Metric)"
-			(at 67.31 55.88 0)
+		(property "Datasheet" "~"
+			(at 67.31 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,95 +3063,25 @@
 				(hide yes)
 			)
 		)
-		(property "PACKAGE" "0402"
-			(at 65.056 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" "25V"
-			(at 65.056 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 65.056 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "81-GRM188R61E106MA3D"
-			(at 65.056 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HOUSE PART NUMBER" ""
-			(at 65.056 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Murata"
-			(at 65.056 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "GRM188R61E106MA73D"
-			(at 65.056 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 67.31 55.88 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 67.31 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "5312d6ad-6140-4ac0-9f81-265580da645b")
 		)
 		(pin "2"
-			(uuid "e634bbdd-4b79-423d-9572-0032d4af1263")
+			(uuid "27765f58-1f99-41bc-a482-90bd212fe2aa")
+		)
+		(pin "1"
+			(uuid "6f5a5872-4623-46ba-80f3-93f89b2823a8")
 		)
 		(instances
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
-					(reference "C69_1")
+					(reference "C129")
 					(unit 1)
 				)
 			)
@@ -4109,7 +3448,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 115.57 81.788 90)
 			(effects
 				(font
@@ -4152,43 +3491,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
-		(at 193.04 116.84 0)
+		(lib_id "Device:C")
+		(at 189.23 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b3ce7447-6c77-442f-83f4-0eb772337393")
-		(property "Reference" "C104_2"
-			(at 195.294 116.586 0)
+		(fields_autoplaced yes)
+		(uuid "b746e68d-1490-4040-b3a4-3d545aa8636d")
+		(property "Reference" "C124"
+			(at 193.04 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
 		(property "Value" "1uF"
-			(at 195.294 119.126 0)
+			(at 193.04 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
-			(at 193.04 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 116.84 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 190.1952 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4196,8 +3527,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 193.04 116.84 0)
+		(property "Datasheet" "~"
+			(at 189.23 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4205,78 +3536,8 @@
 				(hide yes)
 			)
 		)
-		(property "PACKAGE" "0402"
-			(at 190.786 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" "25V"
-			(at 190.786 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 190.786 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
-			(at 190.786 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HOUSE PART NUMBER" ""
-			(at 190.786 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Murata"
-			(at 190.786 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
-			(at 190.786 111.252 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 193.04 116.84 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4285,15 +3546,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "9353e104-4588-424c-bff6-6d688fcab43d")
+			(uuid "d85f3930-00e8-4299-a54a-27d3840fb25d")
 		)
 		(pin "1"
-			(uuid "ae38b40c-17cc-4062-8198-388c99956fb6")
+			(uuid "5ea4f235-4da8-46fb-b1fc-aceecb05ee93")
 		)
 		(instances
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
-					(reference "C104_2")
+					(reference "C124")
 					(unit 1)
 				)
 			)
@@ -4364,6 +3625,76 @@
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
 					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 203.2 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bcb851d8-d6ea-4e4b-99b8-f6b53ebd7167")
+		(property "Reference" "C125"
+			(at 207.01 116.8399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 207.01 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 204.1652 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 203.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 203.2 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b67f2b9c-dda3-4772-9b8e-68a162262cb8")
+		)
+		(pin "1"
+			(uuid "23cd1c01-a517-43c9-9018-e60fa1d5d08f")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
+					(reference "C125")
 					(unit 1)
 				)
 			)
@@ -4503,6 +3834,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 104.14 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ccd85a95-eabf-4363-9071-6aef7e65e780")
+		(property "Reference" "C126"
+			(at 107.95 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 107.95 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 105.1052 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 104.14 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d744a14e-5dc0-4894-8105-0a2a5bda0cbc")
+		)
+		(pin "1"
+			(uuid "e6bb02a2-67a5-4a35-bda8-5db57aa24fc9")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
+					(reference "C126")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 115.57 102.87 90)
 		(unit 1)
@@ -4571,154 +3972,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Thunderscope_Rev5:CAP 1uF 25V X5R 0402")
-		(at 92.71 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e4307335-cf9b-49fc-99ea-d015967e1f59")
-		(property "Reference" "C70_1"
-			(at 94.964 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "1uF"
-			(at 94.964 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Thunderscope_Rev5:GEN_C_0402"
-			(at 92.71 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1 µF ±10% 25V Ceramic Capacitor X5R 0402 (1005 Metric)"
-			(at 92.71 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PACKAGE" "0402"
-			(at 90.456 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "VOLTAGE RATING" "25V"
-			(at 90.456 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER 1" "Mouser"
-			(at 90.456 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "SUPPLIER PART NUMBER 1" "81-GRM155R61E105KA2D"
-			(at 90.456 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "HOUSE PART NUMBER" ""
-			(at 90.456 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Murata"
-			(at 90.456 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER PART NUMBER" "GRM155R61E105KA12D"
-			(at 90.456 50.292 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Substitutions Policy" "Any Parametric Equivalent"
-			(at 92.71 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "012d5dea-a031-4d63-950a-0ed9798bd07b")
-		)
-		(pin "1"
-			(uuid "e9339cf8-5d45-4209-a729-518bb06e6718")
-		)
-		(instances
-			(project "thunderscope-lite"
-				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
-					(reference "C70_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 100.33 82.55 90)
 		(unit 1)
@@ -4744,7 +3997,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_01005_0402Metric_Pad0.57x0.30mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 100.33 84.328 90)
 			(effects
 				(font
@@ -4913,6 +4166,76 @@
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 80.01 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5cc31ad-83cd-4060-8aa2-fc2b8cf3e5a3")
+		(property "Reference" "C128"
+			(at 83.82 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 83.82 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+			(at 80.9752 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 80.01 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fef1f73b-d599-4664-985b-ae395ba10647")
+		)
+		(pin "1"
+			(uuid "fc860c57-e37e-4724-8c0c-d53d7bf25ada")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
+					(reference "C128")
 					(unit 1)
 				)
 			)
