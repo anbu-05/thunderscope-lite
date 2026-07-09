@@ -1,4 +1,4 @@
-26766210533760975
+26767994188663116
 AD9218BSTZ-105
 QFP50P900X900X160-48N
 
@@ -27,6 +27,13 @@ QFN50P400X400X100-25N
 0
 25
 25
+ASEM1-100.000MHZ-LC-T
+XTAL_ASEM1-100.000MHZ-LC-T
+
+
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)

@@ -73,6 +73,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 74.93) (xy 171.45 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e96aa37-b3db-460c-bd58-e8ed2a887a7a")
+	)
+	(wire
+		(pts
 			(xy 81.28 129.54) (xy 88.9 129.54)
 		)
 		(stroke
@@ -708,6 +718,100 @@
 		)
 	)
 	(sheet
+		(at 171.45 72.39)
+		(size 12.7 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5b54f386-113f-44b0-877e-a953724c1c89")
+		(property "Sheetname" "CLK Source"
+			(at 171.45 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CLK.kicad_sch"
+			(at 171.45 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "XO_CLK" output
+			(at 171.45 74.93 180)
+			(uuid "6b0988bb-eb0f-4324-8815-a0eec1f600f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 69.85)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "62ecc8ef-0122-4577-95ef-658a460e3e7d")
+		(property "Sheetname" "MCU"
+			(at 196.85 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 196.85 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 62.23 50.8)
 		(size 19.05 38.1)
 		(exclude_from_sim no)
@@ -851,7 +955,7 @@
 	)
 	(sheet
 		(at 139.7 69.85)
-		(size 19.05 25.4)
+		(size 19.05 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -875,7 +979,7 @@
 			)
 		)
 		(property "Sheetfile" "ADC.kicad_sch"
-			(at 139.7 95.8346 0)
+			(at 139.7 89.4846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -886,26 +990,6 @@
 		(pin "DFS{slash}GAIN" input
 			(at 158.75 72.39 0)
 			(uuid "2689f365-28a7-487c-adc6-8a7777ac9ba3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ENCA" input
-			(at 158.75 74.93 0)
-			(uuid "5d4d696f-1721-4e17-9354-4016995368f3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ENCB" input
-			(at 158.75 77.47 0)
-			(uuid "2d7d1041-a741-47ce-8a92-f58529be328b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -954,7 +1038,7 @@
 			)
 		)
 		(pin "S1" input
-			(at 158.75 80.01 0)
+			(at 158.75 77.47 0)
 			(uuid "22b19e0e-cb53-46b5-8024-dcc41d7d16da")
 			(effects
 				(font
@@ -964,7 +1048,7 @@
 			)
 		)
 		(pin "S2" input
-			(at 158.75 82.55 0)
+			(at 158.75 80.01 0)
 			(uuid "9ca90ccc-c3a6-4516-856a-f50f216c26b3")
 			(effects
 				(font
@@ -984,7 +1068,7 @@
 			)
 		)
 		(pin "{Dout_A}" output
-			(at 158.75 87.63 0)
+			(at 158.75 82.55 0)
 			(uuid "aed504c6-3906-461c-bb8d-eb1a9b36c9c8")
 			(effects
 				(font
@@ -994,8 +1078,18 @@
 			)
 		)
 		(pin "{Dout_B}" output
-			(at 158.75 90.17 0)
+			(at 158.75 85.09 0)
 			(uuid "2b1c3ffb-2f3f-451e-a3c0-9d07885feaf9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ENC" input
+			(at 158.75 74.93 0)
+			(uuid "f3116221-4ccc-428e-b85f-aae4c1d1e1f7")
 			(effects
 				(font
 					(size 1.27 1.27)
