@@ -754,19 +754,27 @@
     ],
     [
       "2aaae1fd-0637-4070-bb0f-0c0b65ef82d4",
-      "ADC_driver"
+      "ADC driver"
     ],
     [
       "6692fd2c-5f52-47ef-beed-f90a90a55e3c",
-      "FE_channel"
+      "CH1"
     ],
     [
       "29655d95-6e15-4139-94d5-54d51b2006e8",
-      "FE_channel1"
+      "CH2"
     ],
     [
       "2221ea3b-4ea2-48c6-9e18-16b209128f4e",
-      "voltage_gen"
+      "ACQ and FE Voltage Regs"
+    ],
+    [
+      "6746a992-99cd-4d6d-8c54-ccff196b517b",
+      "ADC"
+    ],
+    [
+      "a8bce2c4-277d-41bd-bb7b-cc0ae9ebe2d6",
+      "Front End Trim and Bias"
     ]
   ],
   "text_variables": {}

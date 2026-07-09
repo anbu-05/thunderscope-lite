@@ -1,8 +1,6 @@
 (sym_lib_table
   (version 7)
-  (lib (name "731000105")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/731000105.kicad_sym")(options "")(descr ""))
   (lib (name "AD9288BSTZ-40")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/AD9288BSTZ-40.kicad_sym")(options "")(descr ""))
   (lib (name "ADA4930-2YCPZ-R2")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/ADA4930-2YCPZ-R2.kicad_sym")(options "")(descr ""))
   (lib (name "Thunderscope_Rev5")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/Thunderscope_Rev5.kicad_sym")(options "")(descr ""))
-  (lib (name "UD2-4.5NUN-L")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/UD2-4.5NUN-L.kicad_sym")(options "")(descr ""))
 )
