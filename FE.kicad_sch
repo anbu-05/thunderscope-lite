@@ -2671,131 +2671,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:VDD"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VDD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VDD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VDD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VDD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:VSS"
 			(power)
 			(pin_numbers
@@ -2959,6 +2834,12 @@
 		(uuid "bf3e374c-8b2d-4c42-b74f-c7047b96e35c")
 	)
 	(junction
+		(at 88.9 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f85eabd-2543-4475-95d4-78a2d93a674f")
+	)
+	(junction
 		(at 251.46 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3043,6 +2924,12 @@
 		(uuid "78257717-615d-4f3b-8a6a-3fd4d3afd76c")
 	)
 	(junction
+		(at 194.31 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "857f7b16-959f-4714-bce3-4d8dde78c29b")
+	)
+	(junction
 		(at 43.18 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3103,12 +2990,6 @@
 		(uuid "bbb02c89-66e5-4f54-a2d2-f02d05aa9653")
 	)
 	(junction
-		(at 193.04 140.97)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be1f1612-9232-4446-9fdb-ec78d09fe811")
-	)
-	(junction
 		(at 255.27 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3143,18 +3024,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6f15570-c225-426f-b2e8-9c3e90529c38")
-	)
-	(junction
-		(at 101.6 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e88dbc53-a613-42bf-850b-c6561432cfa4")
-	)
-	(junction
-		(at 88.9 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e9bc9d29-ed77-4c1f-9c72-128072b57bdf")
 	)
 	(junction
 		(at 27.94 67.31)
@@ -3722,16 +3591,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 133.35) (xy 101.6 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67e1bc35-46f9-4963-8c48-2d314e2bab3b")
-	)
-	(wire
-		(pts
 			(xy 165.1 105.41) (xy 165.1 115.57)
 		)
 		(stroke
@@ -3779,6 +3638,26 @@
 			(type default)
 		)
 		(uuid "751f4bdb-3765-4b5f-8791-d95bb8faecda")
+	)
+	(wire
+		(pts
+			(xy 88.9 135.89) (xy 110.49 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7662a89c-729b-41a5-b11f-f8edbcf74fa7")
+	)
+	(wire
+		(pts
+			(xy 194.31 140.97) (xy 203.2 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77d09402-75ae-4c42-939c-23bd3d0b47c4")
 	)
 	(wire
 		(pts
@@ -3919,16 +3798,6 @@
 			(type default)
 		)
 		(uuid "93ec3ac4-3752-41cb-945b-e48dbbd71879")
-	)
-	(wire
-		(pts
-			(xy 190.5 140.97) (xy 193.04 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a016982-ff54-49fd-9ea2-c78f2e969da5")
 	)
 	(wire
 		(pts
@@ -4152,7 +4021,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 140.97) (xy 193.04 140.97)
+			(xy 190.5 140.97) (xy 194.31 140.97)
 		)
 		(stroke
 			(width 0)
@@ -4332,26 +4201,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 135.89) (xy 101.6 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f251416b-6e57-4725-be0f-59edf11a60f7")
-	)
-	(wire
-		(pts
-			(xy 101.6 135.89) (xy 110.49 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f44875f1-93c0-4188-84ae-12283268c8a5")
-	)
-	(wire
-		(pts
 			(xy 200.66 35.56) (xy 200.66 39.37)
 		)
 		(stroke
@@ -4439,6 +4288,16 @@
 			(justify left bottom)
 		)
 		(uuid "2d139de9-28f5-4979-8ebc-af40d8244e15")
+	)
+	(label "+VBIAS"
+		(at 99.06 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a23f96b-3851-4dec-867c-ebbc633e147b")
 	)
 	(label "VOUT1"
 		(at 162.56 49.53 180)
@@ -5032,72 +4891,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 193.04 140.97 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "07bf1234-0759-4fc3-a535-b3141695918e")
-		(property "Reference" "#FLG06"
-			(at 193.04 142.875 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 193.04 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 193.04 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f8d835a0-6587-422c-b14e-641b4ee57b1a")
-		)
-		(instances
-			(project "thunderscope-lite"
-				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/a8bce2c4-277d-41bd-bb7b-cc0ae9ebe2d6"
-					(reference "#FLG06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 114.3 135.89 270)
 		(unit 1)
@@ -5542,6 +5335,72 @@
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/a8bce2c4-277d-41bd-bb7b-cc0ae9ebe2d6"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 124.46 135.89 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e49ca2c-216a-483b-a3c6-ba6253f0ffba")
+		(property "Reference" "#FLG014"
+			(at 124.46 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 124.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 124.46 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "359daf84-35d2-47da-a0a3-b0f558d5ece1")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/a8bce2c4-277d-41bd-bb7b-cc0ae9ebe2d6"
+					(reference "#FLG014")
 					(unit 1)
 				)
 			)
@@ -6959,6 +6818,72 @@
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/a8bce2c4-277d-41bd-bb7b-cc0ae9ebe2d6"
 					(reference "#PWR0195")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 194.31 140.97 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56dc110a-eb59-43a7-97a2-9b097e37add1")
+		(property "Reference" "#FLG06"
+			(at 194.31 142.875 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 194.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 194.31 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7281aba5-59ae-4555-8413-8c17f51b180a")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/a8bce2c4-277d-41bd-bb7b-cc0ae9ebe2d6"
+					(reference "#FLG06")
 					(unit 1)
 				)
 			)
@@ -8761,72 +8686,6 @@
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/a8bce2c4-277d-41bd-bb7b-cc0ae9ebe2d6"
 					(reference "C115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VDD")
-		(at 101.6 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dddd6f5a-68ec-42a9-812e-8a8b291837d3")
-		(property "Reference" "#PWR0205"
-			(at 101.6 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+VBIAS"
-			(at 101.6 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 101.6 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45d1ef08-94e8-4854-bde9-9868e114e89d")
-		)
-		(instances
-			(project "thunderscope-lite"
-				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/a8bce2c4-277d-41bd-bb7b-cc0ae9ebe2d6"
-					(reference "#PWR0205")
 					(unit 1)
 				)
 			)

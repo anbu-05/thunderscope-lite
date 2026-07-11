@@ -5,6 +5,171 @@
 	(uuid "993705b0-305c-45d1-838f-1c0f2165796a")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -1462,6 +1627,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 182.88 31.75)
@@ -1510,6 +1776,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a0464cb-6128-4df4-bb92-a000a8d5896d")
+	)
+	(junction
+		(at 233.68 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20c0e1b1-c571-4382-b031-ab6d40df38b1")
+	)
+	(junction
+		(at 55.88 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22b70685-7324-4784-a226-8afb26495615")
 	)
 	(junction
 		(at 127 31.75)
@@ -1566,10 +1844,22 @@
 		(uuid "588ad236-4c0c-4827-b746-4b6bf4342cf8")
 	)
 	(junction
+		(at 63.5 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5babdba3-4853-4094-9653-676906422dbb")
+	)
+	(junction
 		(at 200.66 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f12a607-7d4b-495f-a151-c9eaf5e17770")
+	)
+	(junction
+		(at 63.5 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60399080-70c7-400d-8c04-9ab0d7417f89")
 	)
 	(junction
 		(at 261.62 91.44)
@@ -1590,10 +1880,22 @@
 		(uuid "723d146d-de68-4bd8-b03d-778b46cbeb71")
 	)
 	(junction
+		(at 233.68 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a1322b5-a41c-48ac-bddf-da07a2af8ea0")
+	)
+	(junction
 		(at 182.88 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f7d50aa-24f0-4f35-9916-7dd51257756f")
+	)
+	(junction
+		(at 198.12 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "85ba6bd3-c7c2-4712-9510-4ebd1f6f1db0")
 	)
 	(junction
 		(at 115.57 91.44)
@@ -1618,6 +1920,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93b32954-315f-4606-9ac2-f95f418bdf5f")
+	)
+	(junction
+		(at 198.12 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a56eba91-11b7-41b7-ac1b-0ec60cae5c17")
 	)
 	(junction
 		(at 119.38 143.51)
@@ -1705,7 +2013,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 31.75) (xy 210.82 31.75)
+			(xy 182.88 31.75) (xy 198.12 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1725,7 +2033,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 143.51) (xy 73.66 143.51)
+			(xy 46.99 143.51) (xy 55.88 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1905,6 +2213,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 138.43) (xy 233.68 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c020392-fded-42c3-b1a5-29a37527f617")
+	)
+	(wire
+		(pts
 			(xy 127 143.51) (xy 134.62 143.51)
 		)
 		(stroke
@@ -2032,6 +2350,16 @@
 			(type default)
 		)
 		(uuid "4c5081b2-b5ed-4190-a80a-5cab03657537")
+	)
+	(wire
+		(pts
+			(xy 198.12 91.44) (xy 210.82 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d03fe8a-259f-42da-8098-acbf71ed6ea0")
 	)
 	(wire
 		(pts
@@ -2175,7 +2503,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 91.44) (xy 76.2 91.44)
+			(xy 48.26 91.44) (xy 63.5 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2235,6 +2563,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 91.44) (xy 76.2 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de2d719-f2da-4754-9b08-d0b7adbbe092")
+	)
+	(wire
+		(pts
 			(xy 149.86 143.51) (xy 157.48 143.51)
 		)
 		(stroke
@@ -2242,6 +2580,16 @@
 			(type default)
 		)
 		(uuid "7e61805a-52f0-4025-9857-5d6060f2af61")
+	)
+	(wire
+		(pts
+			(xy 198.12 31.75) (xy 210.82 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eefa2da-6a7c-4392-94e3-9cd2ac6ba36f")
 	)
 	(wire
 		(pts
@@ -2305,6 +2653,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 135.89) (xy 236.22 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3741c4-82ca-4212-b1e0-47f1508263a2")
+	)
+	(wire
+		(pts
 			(xy 109.22 143.51) (xy 119.38 143.51)
 		)
 		(stroke
@@ -2335,7 +2693,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 31.75) (xy 76.2 31.75)
+			(xy 48.26 31.75) (xy 63.5 31.75)
 		)
 		(stroke
 			(width 0)
@@ -2515,6 +2873,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 133.35) (xy 236.22 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce75bd81-7750-4f1b-9d0a-7a0122b4434a")
+	)
+	(wire
+		(pts
 			(xy 71.12 173.99) (xy 73.66 173.99)
 		)
 		(stroke
@@ -2595,6 +2963,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 143.51) (xy 73.66 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df941461-63d0-4ba5-b8d7-0c68372106aa")
+	)
+	(wire
+		(pts
 			(xy 63.5 146.05) (xy 73.66 146.05)
 		)
 		(stroke
@@ -2602,6 +2980,16 @@
 			(type default)
 		)
 		(uuid "e22aa59a-978b-4efd-9824-72e0b53fe57a")
+	)
+	(wire
+		(pts
+			(xy 63.5 31.75) (xy 76.2 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6cf0dbd-5c1c-49fd-8430-861218a7e980")
 	)
 	(wire
 		(pts
@@ -2675,7 +3063,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 91.44) (xy 210.82 91.44)
+			(xy 182.88 91.44) (xy 198.12 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2775,6 +3163,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 130.81) (xy 233.68 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc0457f1-9625-4fad-989c-21c6ef154338")
+	)
+	(wire
+		(pts
 			(xy 22.86 87.63) (xy 22.86 91.44)
 		)
 		(stroke
@@ -2813,16 +3211,6 @@
 		)
 		(uuid "9f62cb8f-0cc9-4662-924d-884172d20d71")
 	)
-	(label "FE_EN"
-		(at 63.5 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "df50e3fa-5ab8-49eb-96bc-11c5b166fe57")
-	)
 	(hierarchical_label "PGA_EN"
 		(shape input)
 		(at 196.85 34.29 180)
@@ -2844,6 +3232,17 @@
 			(justify right)
 		)
 		(uuid "63018560-5b24-41aa-be8f-117d88d295aa")
+	)
+	(hierarchical_label "FE_EN"
+		(shape input)
+		(at 63.5 146.05 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d48eca2-c352-434e-b9c1-e2c1ad88db05")
 	)
 	(hierarchical_label "ACQ_EN"
 		(shape input)
@@ -3877,6 +4276,73 @@
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
 					(reference "C105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 233.68 135.89 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "227209f0-cd06-48b4-b042-f2bdc7c2fd31")
+		(property "Reference" "#FLG013"
+			(at 231.775 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 229.87 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42a14129-87c7-4948-a296-9f3602a9607b")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
+					(reference "#FLG013")
 					(unit 1)
 				)
 			)
@@ -5502,6 +5968,204 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 63.5 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fd4d4f6-e4bb-400e-93f1-86a39d3cfb1b")
+		(property "Reference" "#FLG08"
+			(at 63.5 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 63.5 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 63.5 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d233d745-cf7d-4391-9a1c-f8cd3ef86d53")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
+					(reference "#FLG08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 198.12 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "630d8f9d-22e2-49d7-a30b-e1325bab7719")
+		(property "Reference" "#FLG09"
+			(at 198.12 29.845 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 198.12 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 198.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "521f2e70-7f05-4fc9-abd5-e277d3028448")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
+					(reference "#FLG09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 55.88 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "666a91eb-218c-4bb7-b59a-38816814444c")
+		(property "Reference" "#FLG05"
+			(at 55.88 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 55.88 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 55.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40fcd5a1-d6db-4c3f-9381-22566b71d026")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 250.19 97.79 0)
 		(unit 1)
@@ -5566,6 +6230,72 @@
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
 					(reference "C136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 233.68 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "693a156e-484e-4f22-b524-e0cab28e85c9")
+		(property "Reference" "#PWR0239"
+			(at 233.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 233.68 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 233.68 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fbb2b543-1ad7-4b5d-932d-5c114ca46788")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
+					(reference "#PWR0239")
 					(unit 1)
 				)
 			)
@@ -6390,6 +7120,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Thunderscope_Rev5:GND")
+		(at 233.68 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "897876b5-37ff-4605-aee9-2122cc473089")
+		(property "Reference" "#PWR0238"
+			(at 233.68 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 233.68 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96a2a035-ec39-44ef-833a-fcdcfe0443a2")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
+					(reference "#PWR0238")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 30.48 91.44 90)
 		(unit 1)
@@ -6794,6 +7590,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 63.5 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9498a1bd-d128-45a7-916d-94f4f0a8e5b1")
+		(property "Reference" "#FLG07"
+			(at 63.5 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 63.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 63.5 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fbf54da-aa21-40d6-a6d8-4bc5c91fc4e1")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
+					(reference "#FLG07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Thunderscope_Rev5:IC LDO NCP161ASN330T1G")
 		(at 91.44 96.52 0)
 		(unit 1)
@@ -6919,6 +7781,76 @@
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
 					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 241.3 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97bc5f14-8a16-4af5-b7ef-9a231e869872")
+		(property "Reference" "J5"
+			(at 242.57 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 242.57 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_AMASS:AMASS_XT30PW-M_1x02_P2.50mm_Horizontal"
+			(at 241.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 241.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 241.3 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e5c60ca3-ddef-48c2-894f-efa1bc7fa487")
+		)
+		(pin "2"
+			(uuid "c5336a1a-33d7-46d1-a6eb-5fc55062e555")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -7395,6 +8327,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 182.88 143.51 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a4ff9bf9-1826-4eb6-a391-b5bfdb4faa8b")
+		(property "Reference" "#FLG04"
+			(at 184.785 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 186.69 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 182.88 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3f59edd0-8857-4576-b9b3-36a57e403be8")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 22.86 91.44 180)
 		(unit 1)
@@ -7456,6 +8455,205 @@
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
 					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 198.12 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa42b613-114d-42f4-9de5-4223bc1e7a21")
+		(property "Reference" "#FLG012"
+			(at 198.12 89.535 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 198.12 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 198.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 198.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 198.12 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ab4ddf01-a229-44f8-bc14-6a1b8cec6a18")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
+					(reference "#FLG012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 274.32 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acc44ff5-3d12-4e38-8cda-b07429b3d59e")
+		(property "Reference" "#PWR0171"
+			(at 274.32 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3_PGA"
+			(at 274.32 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 274.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 274.32 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f02ec49-f70d-4c6c-8485-4b3a8a5092e3")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 233.68 133.35 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b301787e-0a9e-41e4-b66f-9e3f136a16f2")
+		(property "Reference" "#FLG03"
+			(at 231.775 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 229.87 133.3499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 233.68 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2a6086bf-c229-4bb4-b8ac-5cf40ff52379")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -9205,72 +10403,6 @@
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
 					(reference "#PWR0166")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 274.32 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9cb024c-0163-450a-832f-f5548e9b8b39")
-		(property "Reference" "#PWR0171"
-			(at 274.32 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGA"
-			(at 274.32 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 274.32 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 274.32 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8b3625fa-e5e8-46a7-ba9a-1b5792cfc58c")
-		)
-		(instances
-			(project "thunderscope-lite"
-				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2221ea3b-4ea2-48c6-9e18-16b209128f4e"
-					(reference "#PWR0171")
 					(unit 1)
 				)
 			)

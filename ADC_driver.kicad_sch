@@ -1186,10 +1186,22 @@
 		(uuid "6f5a0785-d027-47a8-be4f-1fa62e7c4d4e")
 	)
 	(junction
+		(at 190.5 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7888eaf4-da65-415f-9731-1ec0e339828d")
+	)
+	(junction
 		(at 109.22 115.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "819b1fae-8820-4f2e-9ce0-7565eddcc609")
+	)
+	(junction
+		(at 163.83 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84dc4f5e-53f6-400f-b673-f870c6a6fde2")
 	)
 	(junction
 		(at 203.2 111.76)
@@ -1232,12 +1244,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc890bb5-69bb-4eec-b129-74fb9f8fbcab")
-	)
-	(junction
-		(at 189.23 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6f37019-aa6e-405b-b007-514490c68589")
 	)
 	(junction
 		(at 121.92 50.8)
@@ -1477,16 +1483,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 114.3) (xy 194.31 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39d2e65c-c3ea-412c-a50b-22292e3b00ae")
-	)
-	(wire
-		(pts
 			(xy 109.22 107.95) (xy 124.46 107.95)
 		)
 		(stroke
@@ -1504,6 +1500,16 @@
 			(type default)
 		)
 		(uuid "4abb6639-11bc-4fa2-b38b-6643dc41763f")
+	)
+	(wire
+		(pts
+			(xy 163.83 114.3) (xy 163.83 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af19408-4d96-45da-803d-2830502da598")
 	)
 	(wire
 		(pts
@@ -1544,16 +1550,6 @@
 			(type default)
 		)
 		(uuid "5490fe33-0127-4794-9cbf-2e5df8e2b901")
-	)
-	(wire
-		(pts
-			(xy 161.29 114.3) (xy 189.23 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5cde775c-6a10-479b-a6e6-b82bc9235987")
 	)
 	(wire
 		(pts
@@ -1667,16 +1663,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 114.3) (xy 189.23 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7813043c-8cd0-49cc-933a-66ce818459e0")
-	)
-	(wire
-		(pts
 			(xy 80.01 50.8) (xy 92.71 50.8)
 		)
 		(stroke
@@ -1684,6 +1670,16 @@
 			(type default)
 		)
 		(uuid "7981cf43-ca73-4151-bf29-ea4e41897585")
+	)
+	(wire
+		(pts
+			(xy 161.29 114.3) (xy 163.83 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d27eeb9-edaa-4066-ba60-78931a1f3977")
 	)
 	(wire
 		(pts
@@ -1767,7 +1763,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 111.76) (xy 203.2 111.76)
+			(xy 161.29 111.76) (xy 163.83 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1794,6 +1790,16 @@
 			(type default)
 		)
 		(uuid "99a0d051-c0d0-4021-80d2-fe845f71985b")
+	)
+	(wire
+		(pts
+			(xy 190.5 111.76) (xy 190.5 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a498b18-7654-4f56-a998-9174364efede")
 	)
 	(wire
 		(pts
@@ -1937,6 +1943,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 111.76) (xy 203.2 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3af156e-f40d-4032-b6b7-6a37479705ed")
+	)
+	(wire
+		(pts
 			(xy 119.38 102.87) (xy 124.46 102.87)
 		)
 		(stroke
@@ -2035,6 +2051,16 @@
 		)
 		(uuid "f73a7e28-9a6f-48bf-a6c8-4200c6333e39")
 	)
+	(wire
+		(pts
+			(xy 163.83 111.76) (xy 190.5 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ea51b8-8688-4950-990c-74e649782532")
+	)
 	(hierarchical_label "OUT1_N"
 		(shape output)
 		(at 172.72 88.9 0)
@@ -2079,7 +2105,7 @@
 		)
 		(uuid "6521b292-6cb8-4eca-bc1a-28f056cc1f0c")
 	)
-	(hierarchical_label "VCM1"
+	(hierarchical_label "VCM"
 		(shape input)
 		(at 208.28 111.76 0)
 		(effects
@@ -2122,17 +2148,6 @@
 			(justify right)
 		)
 		(uuid "a24a5436-e165-473e-acf4-f585f759c792")
-	)
-	(hierarchical_label "VCM2"
-		(shape input)
-		(at 194.31 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aa0cea72-2896-43b4-86af-549f7969d99d")
 	)
 	(hierarchical_label "IN1_N"
 		(shape input)
@@ -2612,71 +2627,6 @@
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "248e8c09-4ab9-4921-b57c-414eac5a3a86")
-		(property "Reference" "#PWR01"
-			(at 189.23 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.23 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f91785b6-7f46-466a-aa1a-f4da80911cfb")
-		)
-		(instances
-			(project "thunderscope-lite"
-				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -3492,34 +3442,34 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 189.23 120.65 0)
+		(at 190.5 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b746e68d-1490-4040-b3a4-3d545aa8636d")
+		(uuid "b91a3f2a-79d9-4d61-b389-57d3fad31a6a")
 		(property "Reference" "C124"
-			(at 193.04 119.3799 0)
+			(at 194.31 116.8399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "1uF"
-			(at 193.04 121.9199 0)
+			(at 194.31 119.3799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 190.1952 124.46 0)
+			(at 189.5348 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3478,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 120.65 0)
+			(at 190.5 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3537,7 +3487,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 189.23 120.65 0)
+			(at 190.5 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3546,10 +3496,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d85f3930-00e8-4299-a54a-27d3840fb25d")
+			(uuid "1de47faf-fbb1-474d-8c8a-d6b65915a6dd")
 		)
 		(pin "1"
-			(uuid "5ea4f235-4da8-46fb-b1fc-aceecb05ee93")
+			(uuid "100441ea-aa65-4f4f-b08a-9c0411dc62df")
 		)
 		(instances
 			(project "thunderscope-lite"
@@ -4166,6 +4116,71 @@
 			(project "thunderscope-lite"
 				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 190.5 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f57dde43-bb62-4c34-831e-5f1776d9dceb")
+		(property "Reference" "#PWR01"
+			(at 190.5 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 190.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8e433cb-fbc2-41d2-8c2c-7203d2b9662e")
+		)
+		(instances
+			(project "thunderscope-lite"
+				(path "/920a8b65-6ec2-414c-bfee-6322de42233d/2aaae1fd-0637-4070-bb0f-0c0b65ef82d4"
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
