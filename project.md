@@ -24,6 +24,7 @@
 - KiCad lock file `~thunderscope-lite.kicad_sch.lck` existed before this library work and was left alone.
 - KiCad ERC was run on 2026-07-07 and completed without missing-library errors. It reported 108 existing schematic ERC violations, mostly unconnected pins and power pins not driven.
 - While this was being edited, KiCad appears to have generated/updated autosave files and a backup zip. These were left untouched.
+- 2026-07-11: Initial TL33/TL330 search did not find the library. It was later found as `TL3342F160QG.zip` and imported below.
 
 ## 2026-07-08 update
 
@@ -55,3 +56,13 @@
 - KiCad 9 footprint embedded models are stored in an `(embedded_files ...)` block inside the `.kicad_mod` file.
 - Each embedded file uses `(file (name "...") (type ...) (data |...|) (checksum "..."))`.
 - The footprint 3D model entry references the embedded payload with `(model "kicad-embed://filename.step" ...)`.
+
+## 2026-07-11 TL3342F160QG import
+
+- Imported `TL3342F160QG.zip` from `/home/anbu/Downloads`.
+- Added symbol library: `libraries/symbols/TL3342F160QG.kicad_sym`.
+- Added footprint library: `libraries/footprints/TL3342F160QG.pretty/SW_TL3342F160QG.kicad_mod`.
+- Added 3D model: `libraries/3dmodels/TL3342F160QG.step`.
+- Registered `TL3342F160QG` in project `sym-lib-table` and `fp-lib-table`.
+- Added a project-relative STEP model reference to the footprint using `${KIPRJMOD}/libraries/3dmodels/TL3342F160QG.step`.
+- KiCad CLI `fp upgrade` parsed the new footprint library successfully. KiCad ERC loads the project without missing-library messages, but the schematic still has existing ERC violations.

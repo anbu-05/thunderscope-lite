@@ -3,4 +3,5 @@
   (lib (name "AD9288BSTZ-40")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/AD9288BSTZ-40.pretty")(options "")(descr ""))
   (lib (name "ADA4930-2YCPZ-R2")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/ADA4930-2YCPZ-R2.pretty")(options "")(descr ""))
   (lib (name "Thunderscope_Rev5")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/Thunderscope_Rev5.pretty")(options "")(descr ""))
+  (lib (name "TL3342F160QG")(type "KiCad")(uri "${KIPRJMOD}/libraries/footprints/TL3342F160QG.pretty")(options "")(descr ""))
 )

@@ -1,0 +1,145 @@
+(footprint "TSX-3225"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b><b>MHz range crystal unit</b><p>Digi-Key: <a href=\"http://www.digikey.com/product-detail/en/TSX-3225%2016.0000MF18X-AC3/SER3636CT-ND/1825448\">SER3636CT-ND</a></p>")
+	(property "Reference" "REF**"
+		(at 1.907505 -1.907505 0)
+		(layer "F.SilkS")
+		(uuid "e7e6c630-e103-4663-b37e-d2a13f33b497")
+		(effects
+			(font
+				(size 1.001315 1.001315)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TSX-3225"
+		(at 3.81702 3.51146 0)
+		(layer "F.Fab")
+		(uuid "41dea7f3-9591-448c-b18b-222cd32d22d6")
+		(effects
+			(font
+				(size 1.001843 1.001843)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2cd5b8e-2d0a-429e-b9fc-b5a29181537d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a747c1e-c61f-44a0-bbb9-75e74061e825")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -0.9)
+		(end 3.2 -0.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f79e2666-d870-4698-8fe0-e4fe46e78902")
+	)
+	(fp_line
+		(start -1 2.5)
+		(end -1 -0.9)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "58a4a1c7-74e4-41fc-adee-664889937e11")
+	)
+	(fp_line
+		(start 3.2 -0.9)
+		(end 3.2 2.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8032c50-78e4-4d18-8320-b30727de2311")
+	)
+	(fp_line
+		(start 3.2 2.5)
+		(end -1 2.5)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5584c29a-7165-4ee2-8bc2-4e78eb4754a8")
+	)
+	(fp_circle
+		(center -1.512169 1.76923)
+		(end -1.420396 1.72923)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c9dd1209-0306-4115-8ac3-5a7939a8e49f")
+	)
+	(pad "1" smd rect
+		(at 0 1.6)
+		(size 1.4 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "58dc62bf-a802-45a8-85ef-fba031e6034b")
+	)
+	(pad "2" smd rect
+		(at 2.2 1.6)
+		(size 1.4 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "968fe164-8b97-4bc3-8db3-2c13eae8abd2")
+	)
+	(pad "3" smd rect
+		(at 2.2 0)
+		(size 1.4 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "5595c77e-9641-40a1-85f9-137102d90bee")
+	)
+	(pad "4" smd rect
+		(at 0 0)
+		(size 1.4 1.15)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_mask_margin 0.102)
+		(uuid "b3f15bbe-ffba-43c7-9bbe-5ce83e0a8ca3")
+	)
+	(embedded_fonts no)
+	(model "${THUNDER_3DMODEL_DIR}/TSX-3225.step"
+		(offset
+			(xyz 1.1 -0.75 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

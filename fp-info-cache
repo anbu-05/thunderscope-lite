@@ -1,4 +1,4 @@
-26767994188663116
+26769777849684985
 AD9218BSTZ-105
 QFP50P900X900X160-48N
 
@@ -98258,6 +98258,13 @@ Logo WEEE
 0
 0
 0
+TSX-3225
+TSX-3225
+<b><b>MHz range crystal unit</b><p>Digi-Key: <a href="http://www.digikey.com/product-detail/en/TSX-3225%2016.0000MF18X-AC3/SER3636CT-ND/1825448">SER3636CT-ND</a></p>
+
+0
+4
+4
 TerminalBlock
 TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm
 terminal block MaiXu MX126-5.0-02P, 2 pins, pitch 5mm, size 10.5x7.8mm, drill diameter 1.3mm, pad diameter 2.8mm, https://www.lcsc.com/datasheet/lcsc_datasheet_2309150913_MAX-MX126-5-0-03P-GN01-Cu-S-A_C5188435.pdf, script-generated using https://gitlab.com/kicad/libraries/kicad-footprint-generator/-/tree/master/scripts/TerminalBlock_MaiXu

@@ -3,4 +3,5 @@
   (lib (name "AD9288BSTZ-40")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/AD9288BSTZ-40.kicad_sym")(options "")(descr ""))
   (lib (name "ADA4930-2YCPZ-R2")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/ADA4930-2YCPZ-R2.kicad_sym")(options "")(descr ""))
   (lib (name "Thunderscope_Rev5")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/Thunderscope_Rev5.kicad_sym")(options "")(descr ""))
+  (lib (name "TL3342F160QG")(type "KiCad")(uri "${KIPRJMOD}/libraries/symbols/TL3342F160QG.kicad_sym")(options "")(descr ""))
 )
